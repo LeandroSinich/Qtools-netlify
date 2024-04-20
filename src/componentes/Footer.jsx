@@ -27,7 +27,9 @@ export default function Footer() {
                 </Link>
             </div>
             <div>
-                <img src="/q.png" alt="logo" style={{width: '100px',  borderRadius:'5px'}}/>
+                <img 
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfPUGYvJg2LcVS4Cs7SVrHOuXr63VL4xbz6Q_bWrUGimxRk_SmoMWJQit8QiXWfHukyyUeBA_kvMe-8EmnAisW6GoJESBs6QqFjwC_LRCpgQVI8Gumc99fqRXEbDW5TtEDAvkPzTmv1HrrnjFE19HBVbvlDv1v-dX09UNl56fiJ5Gyqse7pr562SYEDDY/s1600/q.png" 
+                    alt="logo" style={{width: '100px',  borderRadius:'5px'}}/>
                 <div>
                 © 2024 Copyright:
                 <a className='text-white' href='https://www.digitalhouse.com/ar'>
