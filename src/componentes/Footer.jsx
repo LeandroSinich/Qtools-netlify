@@ -12,19 +12,19 @@ export default function Footer() {
         <div className='text-center p-3' style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'end', backgroundColor: 'rgba(0, 0, 0, 0.2)', marginTop: '20px' }}>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'start' }}>
                 <NavLink to="/" underline="none" color='inherit'>
-                    {'Home'}
+                    <h6 id='links'>Home</h6>
                 </NavLink>
                 <NavLink to="/maquinas" underline="none" color='inherit'>
-                    {'Máquinas'}
+                <h6 id='links'>Maquinas</h6>
                 </NavLink>
                 <NavLink to="/herramientas" underline="none" color='inherit'>
-                    {'Herramientas'}
+                <h6 id='links'>Herramientas</h6>
                 </NavLink>
                 <NavLink to="/andamios" underline="none" color='inherit'>
-                    {'Andamios'}
+                <h6 id='links'>Andamios</h6>
                 </NavLink>
                 <NavLink to="/otros" underline="none" color='inherit'>
-                    {'Otros'}
+                <h6 id='links'>Otros</h6>
                 </NavLink>
             </div>
             <div>
@@ -39,23 +39,22 @@ export default function Footer() {
                 </div>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'start' }}>
-                <div style={{ display: 'flex'}}>
-                    <InstagramIcon />
-                    <h6 style={{marginLeft:'10px'}}>@Qtools</h6>
+                <div  style={{ display: 'flex'}}>
+                    <InstagramIcon id='links'/>
+                    <h6 id='links' style={{marginLeft:'10px'}}>@Qtools</h6>
                 </div>
                 <div style={{ display: 'flex'}}>
-                    <EmailIcon />
-                    <h6 style={{marginLeft:'10px'}}>info@qtools.com</h6>
+                    <EmailIcon id='links'/>
+                    <h6 id='links' style={{marginLeft:'10px'}}>info@qtools.com</h6>
                 </div>
                 <div style={{ display: 'flex'}}>
-                    <FacebookIcon />
-                    <h6 style={{marginLeft:'10px'}}>Qtools-rental</h6>
+                    <FacebookIcon id='links'/>
+                    <h6 id='links' style={{marginLeft:'10px'}}>Qtools-rental</h6>
                 </div>
                 <div style={{ display: 'flex'}}>
-                    <PhoneEnabledIcon />
-                    <h6 style={{marginLeft:'10px'}}>+54-221-5484657</h6>
+                    <PhoneEnabledIcon id='links'/>
+                    <h6 id='links' style={{marginLeft:'10px'}}>+54-221-5484657</h6>
                 </div>
-
             </div>
         </div>
 
