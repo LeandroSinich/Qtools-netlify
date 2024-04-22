@@ -5,6 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import { NavLink } from 'react-router-dom';
+import '../styles/Footer.css'
 
 export default function Footer() {
     return (
