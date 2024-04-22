@@ -26,7 +26,7 @@
   
   .tarjeta-titulo {
     box-sizing: border-box;
-    font-size: clamp(18px, 4vw,24px);
+    font-size: clamp(16px, 4vw,22px);
     margin: 0;
     margin-bottom: 20px;
   }
