@@ -123,16 +123,16 @@ export default function SearchAppBar() {
 
                     <Box display='flex' className='box'>
                         <NavLink className="nav-link" to="/maquinas">
-                            <Typography variant="h7" m='10px'>Maquinas</Typography>
+                            <Typography variant="h7" m='10px' id='box'>Maquinas</Typography>
                         </NavLink>
                         <NavLink className="nav-link" to="/herramientas">
-                            <Typography variant="h7" m='10px'>Herramientas</Typography>
+                            <Typography variant="h7" m='10px' id='box'>Herramientas</Typography>
                         </NavLink>
                         <NavLink className="nav-link" to="/andamios">
-                            <Typography variant="h7" m='10px'>Andamios</Typography>
+                            <Typography variant="h7" m='10px' id='box'>Andamios</Typography>
                         </NavLink>
                         <NavLink className="nav-link" to="/otros">
-                            <Typography variant="h7" m='10px'>Otros</Typography>
+                            <Typography variant="h7" m='10px' id='box'>Otros</Typography>
                         </NavLink>
 
                     </Box>
