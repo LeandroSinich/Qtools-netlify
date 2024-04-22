@@ -43,8 +43,7 @@ const handleAlquilar = ()=>{
           {carritoLista.map(item => (
             <tr key={item.id}>
               <td >{item.nombre}</td>
-              <td>{item.costo}</td>
-              <td></td>
+              <td>{item.costo}</td>              
               <td>
                 <button
                   className='btn btn-ouline-primary'
