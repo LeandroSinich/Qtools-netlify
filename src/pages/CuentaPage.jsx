@@ -19,7 +19,10 @@ import LogoutIcon from '@mui/icons-material/Logout';
 export default function CuentaPage() {
 
     const { login, reset } = React.useContext(LoginContext)
+    const navigate = useNavigate()
+    
     const handleReloadPage = () => {
+        navigate('/')
         window.location.reload()
     }
 
