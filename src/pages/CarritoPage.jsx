@@ -34,8 +34,7 @@ const handleAlquilar = ()=>{
         <thead>
           <tr>
             <th scope="col">Nombre</th>
-            <th scope="col">Precio</th>
-            <th scope="col">Fecha inicio</th>
+            <th scope="col">Precio</th>            
             <th scope="col">Cant. dias</th>
             <th scope="col">Eliminar</th>
           </tr>
@@ -90,7 +89,7 @@ const handleAlquilar = ()=>{
       className='btn btn-primary'
       type='button'
       onClick={handleAlquilar}
-      disabled={carritoLista<1}
+      disabled={carritoLista<1 || date==false}
       >Alquilar</button>
     </div>
   )
