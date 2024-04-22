@@ -4,27 +4,28 @@ import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import { NavLink } from 'react-router-dom';
 
 export default function Footer() {
     return (
 
         <div className='text-center p-3' style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'end', backgroundColor: 'rgba(0, 0, 0, 0.2)', marginTop: '20px' }}>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'start' }}>
-                <Link href="/" underline="none" color='inherit'>
+                <NavLink to="/" underline="none" color='inherit'>
                     {'Home'}
-                </Link>
-                <Link href="/maquinas" underline="none" color='inherit'>
+                </NavLink>
+                <NavLink to="/maquinas" underline="none" color='inherit'>
                     {'Máquinas'}
-                </Link>
-                <Link href="/herramientas" underline="none" color='inherit'>
+                </NavLink>
+                <NavLink to="/herramientas" underline="none" color='inherit'>
                     {'Herramientas'}
-                </Link>
-                <Link href="/andamios" underline="none" color='inherit'>
+                </NavLink>
+                <NavLink to="/andamios" underline="none" color='inherit'>
                     {'Andamios'}
-                </Link>
-                <Link href="/otros" underline="none" color='inherit'>
+                </NavLink>
+                <NavLink to="/otros" underline="none" color='inherit'>
                     {'Otros'}
-                </Link>
+                </NavLink>
             </div>
             <div>
                 <img 
