@@ -15,6 +15,7 @@ import { Button } from '@mui/material';
 import InicioSesion from '../componentes/InicioSesion';
 import { NavLink } from 'react-router-dom';
 import LogoutIcon from '@mui/icons-material/Logout';
+import { useNavigate } from 'react-router-dom'
 
 export default function CuentaPage() {
 
